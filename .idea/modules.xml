@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/src/sauer.triangles/sauer.triangles.iml" filepath="$USER_HOME$/src/sauer.triangles/sauer.triangles.iml" />
+      <module fileurl="file://$USER_HOME$/src/sauer.triangles/triangles/triangles.iml" filepath="$USER_HOME$/src/sauer.triangles/triangles/triangles.iml" />
+    </modules>
+  </component>
+</project>
+
