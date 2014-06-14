@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.view.WindowManager;
 
 public class GameActivity extends Activity {
 
@@ -25,5 +26,7 @@ public class GameActivity extends Activity {
         // as the ContentView for this Activity.
         mGLView = new MyGLSurfaceView(this);
         setContentView(mGLView);
+
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
     }
 }
